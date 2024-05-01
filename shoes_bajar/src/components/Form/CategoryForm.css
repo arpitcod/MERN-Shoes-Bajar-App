@@ -1,0 +1,22 @@
+.form_container{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.form_container input{
+    padding: 10px 0px;
+    width: 500px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.sub-btn{
+    padding: 5px 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #4361ee;
+    color: #fbffe3;
+    border: 1px solid #4361ee;
+}
+

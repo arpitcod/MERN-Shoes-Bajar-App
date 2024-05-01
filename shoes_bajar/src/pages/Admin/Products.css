@@ -1,0 +1,29 @@
+.Main_products_container{
+    width: 70%;
+    border: 1px solid green;
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.main_products_container{
+    border: 1px solid green;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.main_products_card_box{
+    border: 1px solid red;
+    width: 300px;
+    /* height: 200px; */
+    /* display: flex; */
+    float: left;
+    margin: 8px;
+}
+.main_products_card_box .product_img{
+    /* float: left; */
+    width: 100%;
+    /* height: 100%; */
+}
+    

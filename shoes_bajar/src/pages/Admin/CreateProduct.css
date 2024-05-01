@@ -1,0 +1,69 @@
+.main_create_product_container{
+    width: 60%;
+    border: 1px solid green;
+    float: left;
+    margin-left: 10px;
+    /* padding: 10px; */
+}
+
+.Product_create_search_box{
+    border: 1px solid black;
+    float: left;
+    width: 100%;
+    padding: 5px;
+   
+}
+.Product_select{
+    border: 1px solid red;
+   width: 100%;
+}
+
+.Main_img_uploder{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.Main_img_uploder .img_uploder_lbl{
+    border: 1px solid red;
+    padding: 10px;
+}
+.product_img_box{
+    border: 1px solid green;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.product_img_box .product_img{
+    border-radius: 20px;
+}
+.product_uplod_form{
+    /* border: 1px solid green; */
+    margin-top: 10px;
+
+}
+/* .product_uplod_form #input_shipping{
+     border: 1px solid red;
+} */
+.product_uplod_form .input_product_Shipping{
+    /* padding: 20px 0px; */
+    width: 100%;
+    border: 1px solid red;
+    /* border: 1px solid black; */
+}
+.product_uplod_form input{
+    outline: none;
+}
+.product_uplod_form .input_product{
+    width: 100%;
+    padding: 8px 0px;
+    border-radius: 4px;
+
+}
+.prdct_cr_btn{
+    margin-top: 10px;
+    width: 30%;
+    margin: 5px;
+    padding: 6px;
+    
+    /* float: left; */
+}

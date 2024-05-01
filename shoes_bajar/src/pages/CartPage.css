@@ -1,0 +1,117 @@
+.main_cart_container{
+    border: 1px solid green;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    
+}
+
+
+.main_cart_container .cart_items_box{
+    /* border: 1px solid green; */
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+.cart_items_box .cart_side_1_box{
+    /* border: 1px solid red;  */
+    width: 69%;
+    float: left;
+    padding: 10px;
+    background-color: #dee2ff;
+    border: 2px solid #27187e;
+    border-radius: 20px;
+}
+.cart_items_box .cart_side_2_box{
+    /* border: 1px solid red; */
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 2px solid #27187e;
+    /* background-color: white; */
+    border-radius: 20px;
+    overflow: auto;
+    margin-left: 10px;
+}
+
+.cart_side_2_box .cart_items_box{
+    /* border: 1px solid green;  */
+    width: 100%;
+    float: left;
+    padding: 10px;
+    /* border: 2px solid #27187e; */
+    /* background-color: #dee2ff;*/
+}
+.cart_items_box .cart_itmes{
+    width: 100%;
+    /* border: 1px solid red; */
+    float: left;
+    border: 2px solid #27187e;
+    background-color: white;
+    border-radius: 20px;
+    overflow: auto;
+}
+.cart_items_box .cart_itmes .items_img{
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.cart_items_box .cart_itmes .product_img{
+    width: 100%;
+   
+}
+.cart_items_box .cart_itmes .items_dtl{
+    width: 80%;
+    float: left;
+    /* border: 1px solid black; */
+    
+}
+.cart_items_box .cart_itmes .items_dtl p{
+    font-weight: 500;
+}
+.cart_items_box .cart_itmes .items_dtl button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #ff6969;
+    font-weight: 500;
+}
+.cart_put_addrs{
+    border: 1px solid green;
+    width: 100%;
+    padding: 10px;
+}
+.cart_put_addrs button{
+
+    border: 2px solid #27187e;
+         background-color: #dee2ff;
+        border-radius: 20px;
+        padding: 5px 10px;
+        text-transform: capitalize;
+}
+.cart_put_addrss_2{
+    border: 1px solid green;
+    width: 100%;
+    padding: 10px;
+
+}
+.cart_put_addrss_2 button{
+    border: 2px solid #27187e;
+     background-color: #dee2ff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+.main_payment_getway_box{
+    border: 1px solid green;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    font-weight: 500;
+}
+.main_payment_getway_box button{
+    border: 2px solid #27187e;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}

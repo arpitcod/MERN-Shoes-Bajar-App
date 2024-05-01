@@ -1,0 +1,38 @@
+.Error_page_container{
+
+    width: 100%;
+    /* background-color: green; */
+    float: left;
+    height: 100vh;
+}
+
+.Error_title{
+
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid black; */
+    /* margin: 50px auto; */
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+.Error_title h1{
+    font-size: 80px;
+    text-transform: capitalize;
+
+}
+.Error_title .Go_link{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 30px;
+
+}
+.Error_title .Go_link:hover{
+    color: rgb(39, 39, 39);
+    background-color: aliceblue;
+    transition-duration: 0.3s;
+    border: 1px solid black;
+}

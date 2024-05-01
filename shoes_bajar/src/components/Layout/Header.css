@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.Navbar_container{
+    width: 100%;
+    /* height: 50px; */
+    background-color: #27187e;
+    color: #f1f2f6;
+    float: left;
+    /* padding: 10px 0px;*/
+
+}
+.Logo_name{
+    /* border: 1px solid green; */
+    width: 20%;
+    float: left;
+    line-height: 50px;
+   
+}
+.Logo_name h1{
+    font-size: 39px;
+    text-transform: capitalize;
+     font-family: 'Kanit', sans-serif;
+     text-align: center;
+}
+.Navbar_container .Nav_links{
+    /* border: 1px solid yellow; */
+    /* width: 20%; */
+    /* width: 100%; */
+    float: left;
+    display: flex;
+   
+
+}
+.Nav_link{
+    display: block;
+    padding: 8px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+.active{
+    color: black;
+    background-color: aliceblue;
+}
+
+.Nav_link:hover{
+    color: black;
+    background-color: aliceblue;
+    transition-duration: 0.6s;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 768px) {
+    .Logo_name,
+    .Nav_links {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Logo_name h1 {
+        font-size: 30px;
+    }
+    
+    .Nav_links {
+        flex-direction: column;
+    }
+    
+    .Nav_link {
+        padding: 10px;
+    }
+}
+

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.main_login_container{
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+}
+.Login_container{
+    border: 1px solid #B67352;
+    width: 500px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; */
+}
+
+.side_1_box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* border: 1px solid red; */
+    background-color: #FF8911;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.side_1_box h1{
+    margin: 50% auto;
+    text-align: center;
+    color: #F9EFDB;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.side_2_box{
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* background-color: #FFF7F1;s */
+   
+    /* border: 1px solid purple; */
+   
+
+}
+.side_2_box .Login_form{
+    display: grid;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+.side_2_box input{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.Login_btn{
+    padding: 6px 0px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #FF8911;
+    color: #F9EFDB;
+    border: none;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.Login_btn:hover{
+    
+    background-color: #FDBF60;
+    transition-duration: 0.3s;
+}
+
+.forgot_pass_link{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 575.98px) {
+    /* Your CSS code for phones */
+    .Login_container{
+        border: 1px solid red;
+        /* border: 1px solid #B67352; */
+        width: 400px;
+        height: 300px;
+        float: left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px; */
+
+        
+    }
+
+    .side_1_box h1{
+        margin: 60% auto;
+        border: 1px solid black;
+        /* height: 100%; */
+        width: 100%;
+        /* height: 100%; */
+        text-align: center;
+        color: #F9EFDB;
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+    .side_2_box input{
+        margin: 10px 0px;
+        padding: 10px 20px;
+        border: none;
+        border-bottom: 1px solid;
+        outline: none;
+        width: 100%;
+    }
+
+    .Login_btn{
+        padding: 6px 0px;
+        width: 80%;
+        font-size: 15px;
+        background-color: #FF8911;
+        color: #F9EFDB;
+        border: none;
+        font-weight: 700;
+        border-radius: 15px;
+        margin: auto;
+    }
+  }
+  
+
+  @media only screen and (max-width: 575.98px) {
+    .Login_container {
+        width: 90%; /* Adjust width to fit smaller screens */
+        max-width: 300px; /* Limit maximum width */
+        height: auto; /* Allow height to adjust based on content */
+        top: 50%; /* Center vertically */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px; /* Add border-radius for rounded corners */
+    }
+
+    .side_1_box {
+        width: 100%;
+        border-radius: 15px 15px 0 0; /* Adjust border-radius to match the container */
+    }
+
+    .side_1_box h1 {
+        margin: 30% auto; /* Adjust margin for smaller screens */
+    }
+
+    .side_2_box {
+        width: 100%;
+    }
+
+    .side_2_box input {
+        width: 90%; /* Adjust input width */
+        margin: 10px auto; /* Adjust margin for smaller screens */
+    }
+
+    .Login_btn {
+        width: 90%; /* Adjust button width */
+        font-size: 14px; /* Decrease font size */
+        margin: 10px auto; /* Adjust margin for smaller screens */
+    }
+}
+ 

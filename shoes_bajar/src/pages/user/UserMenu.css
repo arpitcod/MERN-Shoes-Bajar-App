@@ -1,0 +1,21 @@
+.List_grp{
+    border: 1px solid black;
+    width: 300px;
+    float: left;
+}
+
+.List_grp h1{
+    text-align: center;
+}
+
+.List_grp .Nav-link{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+}
+

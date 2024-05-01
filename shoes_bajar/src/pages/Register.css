@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.main_register_container{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    border: 1px solid black;
+}
+.register_container_box{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    float: left;
+}
+/* Login Pages  */
+.register_container{
+    border: 1px solid #B67352;
+    width: 600px;
+    height: 450px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    /* border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; */
+}
+
+.regi_side_1_box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* border: 1px solid red; */
+    background-color: #FF8911;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.regi_side_1_box h1{
+    text-align: center;
+    color: #F9EFDB;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+    float: left;
+    /* line-height: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+    
+
+.regi_side_2_box{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: white;
+   
+    /* border: 1px solid purple; */
+   
+
+}
+.regi_side_2_box .Login_form{
+    display: grid;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+.regi_side_2_box input{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    width: 80%;
+}
+
+.register_form{
+    text-align: center;
+    /* border: 1px solid; */
+    margin: auto;
+    height: 100%;
+}
+
+
+.register_btn{
+    padding: 6px 0px;
+    width: 85%;
+    font-size: 16px;
+    background-color: #FF8911;
+    color: #F9EFDB;
+    border: none;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.register_btn:hover{
+    
+    background-color: #FDBF60;
+    transition-duration: 0.3s;
+}
+
+
+@media only screen and (max-width: 575.98px) {
+    .register_container{
+        border: 1px solid #B67352;
+        width: 500px;
+        height: 450px;
+        float: left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .regi_side_1_box{
+      display: none;
+    }
+    .regi_side_2_box .Login_form{
+        display: grid;
+        justify-content: center;
+        margin-top: 35px;
+    }
+}

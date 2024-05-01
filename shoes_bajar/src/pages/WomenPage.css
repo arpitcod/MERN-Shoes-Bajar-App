@@ -1,0 +1,66 @@
+.main_menpage_container{
+    width: 100%;
+    border: 1px solid green;
+    float: left;
+    /* margin: 10px; */
+}
+/* .main_menpage_container .side1_main_box{
+    border: 1px solid green;
+} */
+.women_filter_category_box{
+    /* border: 1px solid green; */
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+.women_filter_category_box .women_filter_category_title{
+    width: 100%;
+    border: 2px solid #27187e;
+    background-color: #dee2ff;
+    border-radius: 15px;
+    color: #073b4c;
+}
+.women_filter_category_box .women_filter_category_title h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.women_category_box{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.women_category_box{
+    /* border: 1px solid;  */
+    /* padding: 1px; */
+    font-size: 15px;
+    font-weight: 500;
+}
+/* * price category filter  */ 
+
+.women_price_category_box{
+    /* border: 1px solid; */
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.products_card_box_dtls{
+    background-color: white;
+    /* border-radius: 15px; */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .women_filter_category_box {
+        width: 100%; /* Make filter category box full width on smaller screens */
+        float: none; /* Remove float */
+        margin-bottom: 10px; /* Add some space between filter categories */
+    }
+
+    .women_category_box {
+        padding: 10px; /* Adjust padding for better spacing */
+    }
+}
